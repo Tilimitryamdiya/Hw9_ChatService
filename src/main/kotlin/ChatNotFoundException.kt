@@ -1,0 +1,1 @@
+class ChatNotFoundException(message: String = "Chat not found") : RuntimeException(message)
